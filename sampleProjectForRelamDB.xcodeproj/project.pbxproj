@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770CA42328BCA99A00F459AF /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770CA42228BCA99A00F459AF /* WeatherModel.swift */; };
+		7745B1EA28BCDFEA008EB7E2 /* SwiftTryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745B1E928BCDFEA008EB7E2 /* SwiftTryCatch.m */; };
+		77D7592228BC817F00398D06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D7592128BC817F00398D06 /* AppDelegate.swift */; };
+		77D7592428BC817F00398D06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D7592328BC817F00398D06 /* ViewController.swift */; };
+		77D7592728BC817F00398D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D7592528BC817F00398D06 /* Main.storyboard */; };
+		77D7592928BC818100398D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D7592828BC818100398D06 /* Assets.xcassets */; };
+		77D7592C28BC818100398D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D7592A28BC818100398D06 /* LaunchScreen.storyboard */; };
+		D32E37D27C59A749DAA3BFA6 /* Pods_sampleProjectForRelamDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4123539674DC4342D3E1A58F /* Pods_sampleProjectForRelamDB.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		278F2F72827E99E5F064EC30 /* Pods-sampleProjectForRelamDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleProjectForRelamDB.release.xcconfig"; path = "Target Support Files/Pods-sampleProjectForRelamDB/Pods-sampleProjectForRelamDB.release.xcconfig"; sourceTree = "<group>"; };
+		4123539674DC4342D3E1A58F /* Pods_sampleProjectForRelamDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleProjectForRelamDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5267C0EF9BDAA32A1997355C /* Pods-sampleProjectForRelamDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleProjectForRelamDB.debug.xcconfig"; path = "Target Support Files/Pods-sampleProjectForRelamDB/Pods-sampleProjectForRelamDB.debug.xcconfig"; sourceTree = "<group>"; };
+		770CA42228BCA99A00F459AF /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		7745B1E828BCDFEA008EB7E2 /* SwiftTryCatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftTryCatch.h; sourceTree = "<group>"; };
+		7745B1E928BCDFEA008EB7E2 /* SwiftTryCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftTryCatch.m; sourceTree = "<group>"; };
+		7745B1EB28BCE029008EB7E2 /* sampleProjectForRelamDB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleProjectForRelamDB-Bridging-Header.h"; sourceTree = "<group>"; };
+		77D7591E28BC817F00398D06 /* sampleProjectForRelamDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleProjectForRelamDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D7592128BC817F00398D06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77D7592328BC817F00398D06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77D7592628BC817F00398D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77D7592828BC818100398D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77D7592B28BC818100398D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D7591B28BC817F00398D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32E37D27C59A749DAA3BFA6 /* Pods_sampleProjectForRelamDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007B46EDD37A5F6EA75A1488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5267C0EF9BDAA32A1997355C /* Pods-sampleProjectForRelamDB.debug.xcconfig */,
+				278F2F72827E99E5F064EC30 /* Pods-sampleProjectForRelamDB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77D7591528BC817F00398D06 = {
+			isa = PBXGroup;
+			children = (
+				77D7592028BC817F00398D06 /* sampleProjectForRelamDB */,
+				77D7591F28BC817F00398D06 /* Products */,
+				007B46EDD37A5F6EA75A1488 /* Pods */,
+				83A5C02362F4948C34D82892 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77D7591F28BC817F00398D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D7591E28BC817F00398D06 /* sampleProjectForRelamDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D7592028BC817F00398D06 /* sampleProjectForRelamDB */ = {
+			isa = PBXGroup;
+			children = (
+				7745B1E828BCDFEA008EB7E2 /* SwiftTryCatch.h */,
+				7745B1E928BCDFEA008EB7E2 /* SwiftTryCatch.m */,
+				77D7592128BC817F00398D06 /* AppDelegate.swift */,
+				770CA42228BCA99A00F459AF /* WeatherModel.swift */,
+				77D7592328BC817F00398D06 /* ViewController.swift */,
+				7745B1EB28BCE029008EB7E2 /* sampleProjectForRelamDB-Bridging-Header.h */,
+				77D7592528BC817F00398D06 /* Main.storyboard */,
+				77D7592828BC818100398D06 /* Assets.xcassets */,
+				77D7592A28BC818100398D06 /* LaunchScreen.storyboard */,
+			);
+			path = sampleProjectForRelamDB;
+			sourceTree = "<group>";
+		};
+		83A5C02362F4948C34D82892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4123539674DC4342D3E1A58F /* Pods_sampleProjectForRelamDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D7591D28BC817F00398D06 /* sampleProjectForRelamDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D7592F28BC818100398D06 /* Build configuration list for PBXNativeTarget "sampleProjectForRelamDB" */;
+			buildPhases = (
+				BDC64AC6DCFE1BD05732B1C3 /* [CP] Check Pods Manifest.lock */,
+				77D7591A28BC817F00398D06 /* Sources */,
+				77D7591B28BC817F00398D06 /* Frameworks */,
+				77D7591C28BC817F00398D06 /* Resources */,
+				71E8E97B6706F8A6A47E6814 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleProjectForRelamDB;
+			productName = sampleProjectForRelamDB;
+			productReference = 77D7591E28BC817F00398D06 /* sampleProjectForRelamDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D7591628BC817F00398D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					77D7591D28BC817F00398D06 = {
+						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 77D7591928BC817F00398D06 /* Build configuration list for PBXProject "sampleProjectForRelamDB" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77D7591528BC817F00398D06;
+			productRefGroup = 77D7591F28BC817F00398D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D7591D28BC817F00398D06 /* sampleProjectForRelamDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77D7591C28BC817F00398D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D7592C28BC818100398D06 /* LaunchScreen.storyboard in Resources */,
+				77D7592928BC818100398D06 /* Assets.xcassets in Resources */,
+				77D7592728BC817F00398D06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71E8E97B6706F8A6A47E6814 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sampleProjectForRelamDB/Pods-sampleProjectForRelamDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sampleProjectForRelamDB/Pods-sampleProjectForRelamDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sampleProjectForRelamDB/Pods-sampleProjectForRelamDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC64AC6DCFE1BD05732B1C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sampleProjectForRelamDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D7591A28BC817F00398D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D7592428BC817F00398D06 /* ViewController.swift in Sources */,
+				7745B1EA28BCDFEA008EB7E2 /* SwiftTryCatch.m in Sources */,
+				770CA42328BCA99A00F459AF /* WeatherModel.swift in Sources */,
+				77D7592228BC817F00398D06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77D7592528BC817F00398D06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D7592628BC817F00398D06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77D7592A28BC818100398D06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D7592B28BC818100398D06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77D7592D28BC818100398D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		77D7592E28BC818100398D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77D7593028BC818100398D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5267C0EF9BDAA32A1997355C /* Pods-sampleProjectForRelamDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9VBYKT8KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.sampleProjectForRelamDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleProjectForRelamDB/sampleProjectForRelamDB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		77D7593128BC818100398D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278F2F72827E99E5F064EC30 /* Pods-sampleProjectForRelamDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9VBYKT8KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.sampleProjectForRelamDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleProjectForRelamDB/sampleProjectForRelamDB-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D7591928BC817F00398D06 /* Build configuration list for PBXProject "sampleProjectForRelamDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D7592D28BC818100398D06 /* Debug */,
+				77D7592E28BC818100398D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D7592F28BC818100398D06 /* Build configuration list for PBXNativeTarget "sampleProjectForRelamDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D7593028BC818100398D06 /* Debug */,
+				77D7593128BC818100398D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77D7591628BC817F00398D06 /* Project object */;
+}
